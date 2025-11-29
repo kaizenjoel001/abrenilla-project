@@ -1,0 +1,607 @@
+CRITICAL - 2025-07-12 11:37:52 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:40:35 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:43:17 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/barangay]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:47:38 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/barangay]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:50:42 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+ERROR - 2025-07-12 11:59:20 --> mysqli_sql_exception: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email' in C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\skgyes1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\skgyes1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skgyes1\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skgyes1\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\skgyes1\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\skgyes1\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(933): App\Controllers\Auth->register()
+#10 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\skgyes1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\skgyes1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\skgyes1\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\skgyes1\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-07-12 11:59:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:59:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$qcj1qdacPR/wygXMjcs0ZOmCbUfYNjcg2EYCA74Cr/ZR4T4nJb4Nq\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$qcj1qdacPR/wygXMjcs0ZOmCbUfYNjcg2EYCA74Cr/ZR4T4nJb4Nq\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:59:20 --> [Caused by] mysqli_sql_exception: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$qcj1qdacPR/wygXMjcs0ZOmCbUfYNjcg2EYCA74Cr/ZR4T4nJb4Nq\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$qcj1qdacPR/wygXMjcs0ZOmCbUfYNjcg2EYCA74Cr/ZR4T4nJb4Nq\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$qcj1qdacPR/wygXMjcs0ZOmCbUfYNjcg2EYCA74Cr/ZR4T4nJb4Nq\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+ERROR - 2025-07-12 11:59:50 --> mysqli_sql_exception: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email' in C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\skgyes1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\skgyes1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skgyes1\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skgyes1\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\skgyes1\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\skgyes1\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(933): App\Controllers\Auth->register()
+#10 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\skgyes1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\skgyes1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\skgyes1\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\skgyes1\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-07-12 11:59:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:59:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$IhC8lS3l6/kXouSccTW3SOvlG.UQnBNtyQWZmJq2J6xCXWkHQYHDG\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$IhC8lS3l6/kXouSccTW3SOvlG.UQnBNtyQWZmJq2J6xCXWkHQYHDG\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 11:59:50 --> [Caused by] mysqli_sql_exception: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$IhC8lS3l6/kXouSccTW3SOvlG.UQnBNtyQWZmJq2J6xCXWkHQYHDG\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$IhC8lS3l6/kXouSccTW3SOvlG.UQnBNtyQWZmJq2J6xCXWkHQYHDG\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$IhC8lS3l6/kXouSccTW3SOvlG.UQnBNtyQWZmJq2J6xCXWkHQYHDG\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+ERROR - 2025-07-12 12:00:08 --> mysqli_sql_exception: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email' in C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\skgyes1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\skgyes1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skgyes1\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skgyes1\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\skgyes1\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\skgyes1\app\Controllers\Auth.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(933): App\Controllers\Auth->register()
+#10 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\skgyes1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\skgyes1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\skgyes1\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\skgyes1\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-07-12 12:00:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:00:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$4RAUgqnhDxLP44NqvhwiqOLfYguYRvgDbu33RNcYcUctcPYCcg716\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$4RAUgqnhDxLP44NqvhwiqOLfYguYRvgDbu33RNcYcUctcPYCcg716\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:00:08 --> [Caused by] mysqli_sql_exception: Duplicate entry 'kaizenjoel101@gmail.com' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$4RAUgqnhDxLP44NqvhwiqOLfYguYRvgDbu33RNcYcUctcPYCcg716\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$4RAUgqnhDxLP44NqvhwiqOLfYguYRvgDbu33RNcYcUctcPYCcg716\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (\'Kaizen Soturo\', \'kaizenjoel101@gmail.com\', \'$2y$10$4RAUgqnhDxLP44NqvhwiqOLfYguYRvgDbu33RNcYcUctcPYCcg716\', \'sk_official\', \'09055656753\', \'Purok 8 Poblacion, Trento Agusan Del Sur\', \'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`full_name`, `email`, `password`, `role`, `phone`, `address`, `age`) VALUES (:full_name:, :email:, :password:, :role:, :phone:, :address:, :age:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->register()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:00:39 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:01:00 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:01:17 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:15:50 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:20:21 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 12:20:55 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+DEBUG - 2025-07-12 12:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 12:25:36 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: dashboard/sk]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+DEBUG - 2025-07-12 12:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 12:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 13:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 14:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 15:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 16:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 16:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 16:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 16:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 16:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-12 17:21:50 --> mysqli_sql_exception: Table 'skgyes1.proposals' doesn't exist in C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\skgyes1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\skgyes1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skgyes1\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skgyes1\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\skgyes1\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\skgyes1\app\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(933): App\Controllers\Proposal->store()
+#10 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+#11 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\skgyes1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\skgyes1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\skgyes1\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\skgyes1\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-07-12 17:21:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'skgyes1.proposals' doesn't exist
+[Method: POST, Route: proposal/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (:title:, :category:, :description:, :objectives:, :beneficiaries:, :location:, :start_date:, :end_date:, :estimated_budget:, :budget_breakdown:, :source_of_funds:, :expected_outcomes:, :partners:, :attachments:, :created_by:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 17:21:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'skgyes1.proposals' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'The Mobile Legends Tournament is a competitive eSports event that brings together local youth players to showcase their skills, teamwork, and strategic thinking in a popular 5v5 mobile multiplayer online battle arena (MOBA) game. The tournament aims to promote digital sportsmanship, unity among youth, and responsible gaming within the barangay. Teams will compete in elimination rounds until the top team emerges as the champion. Prizes, trophies, and certificates will be awarded to the winners.\', \'To promote camaraderie and teamwork among the youth through friendly digital competition.\\r\\n\\r\\nTo provide a healthy and productive outlet for gaming enthusiasts within the barangay.\\r\\n\\r\\nTo foster responsible online gaming behavior and digital citizenship among young participants.\\r\\n\\r\\nTo encourage strategic thinking, communication, and leadership skills through eSports.\\r\\n\\r\\nTo support the SK’s mission of youth engagement and empowerment using relevant modern platforms.\\r\\n\\r\\nTo identify and recognize local talents in eSports who may pursue gaming-related opportunities.\\r\\n\\r\\n\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'| **Item**                     | **Description**                                           | **Estimated Cost (₱)** |\\r\\n| ---------------------------- | --------------------------------------------------------- | ---------------------- |\\r\\n| **Prizes**                   | Cash prize for Champion, 1st Runner-Up, and 2nd Runner-Up | 6,000.00               |\\r\\n| **Trophies & Medals**        | For top 3 teams                                           | 2,000.00               |\\r\\n| **Tarpaulin & Posters**      | Welcome tarp, bracket board, and promotional posters      | 1,000.00               |\\r\\n| **Certificates**             | For all participants, winners, and organizers             | 500.00                 |\\r\\n| **Internet Load/Connection** | For online/offline hosting (e.g., data or WiFi rental)    | 1,000.00               |\\r\\n| **Sound System Rental**      | Microphone and speakers for announcing matches            | 1,000.00               |\\r\\n| **Food & Snacks**            | For organizers, marshals, and participants                | 3,000.00               |\\r\\n| **Honorarium (Optional)**    | For shoutcasters/referees or tech support                 | 2,000.00               |\\r\\n| **Contingency**              | Emergency expenses (e.g., additional load, repairs)       | 1,500.00               |\\r\\n\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'Increased youth participation in barangay-led activities through digital and recreational engagement.\\r\\n\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:21:50\', \'2025-07-12 17:21:50\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'The Mobile Legends Tournament is a competitive eSports event that brings together local youth players to showcase their skills, teamwork, and strategic thinking in a popular 5v5 mobile multiplayer online battle arena (MOBA) game. The tournament aims to promote digital sportsmanship, unity among youth, and responsible gaming within the barangay. Teams will compete in elimination rounds until the top team emerges as the champion. Prizes, trophies, and certificates will be awarded to the winners.\', \'To promote camaraderie and teamwork among the youth through friendly digital competition.\\r\\n\\r\\nTo provide a healthy and productive outlet for gaming enthusiasts within the barangay.\\r\\n\\r\\nTo foster responsible online gaming behavior and digital citizenship among young participants.\\r\\n\\r\\nTo encourage strategic thinking, communication, and leadership skills through eSports.\\r\\n\\r\\nTo support the SK’s mission of youth engagement and empowerment using relevant modern platforms.\\r\\n\\r\\nTo identify and recognize local talents in eSports who may pursue gaming-related opportunities.\\r\\n\\r\\n\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'| **Item**                     | **Description**                                           | **Estimated Cost (₱)** |\\r\\n| ---------------------------- | --------------------------------------------------------- | ---------------------- |\\r\\n| **Prizes**                   | Cash prize for Champion, 1st Runner-Up, and 2nd Runner-Up | 6,000.00               |\\r\\n| **Trophies & Medals**        | For top 3 teams                                           | 2,000.00               |\\r\\n| **Tarpaulin & Posters**      | Welcome tarp, bracket board, and promotional posters      | 1,000.00               |\\r\\n| **Certificates**             | For all participants, winners, and organizers             | 500.00                 |\\r\\n| **Internet Load/Connection** | For online/offline hosting (e.g., data or WiFi rental)    | 1,000.00               |\\r\\n| **Sound System Rental**      | Microphone and speakers for announcing matches            | 1,000.00               |\\r\\n| **Food & Snacks**            | For organizers, marshals, and participants                | 3,000.00               |\\r\\n| **Honorarium (Optional)**    | For shoutcasters/referees or tech support                 | 2,000.00               |\\r\\n| **Contingency**              | Emergency expenses (e.g., additional load, repairs)       | 1,500.00               |\\r\\n\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'Increased youth participation in barangay-led activities through digital and recreational engagement.\\r\\n\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:21:50\', \'2025-07-12 17:21:50\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (:title:, :category:, :description:, :objectives:, :beneficiaries:, :location:, :start_date:, :end_date:, :estimated_budget:, :budget_breakdown:, :source_of_funds:, :expected_outcomes:, :partners:, :attachments:, :created_by:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 17:21:50 --> [Caused by] mysqli_sql_exception: Table 'skgyes1.proposals' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'The Mobile Legends Tournament is a competitive eSports event that brings together local youth players to showcase their skills, teamwork, and strategic thinking in a popular 5v5 mobile multiplayer online battle arena (MOBA) game. The tournament aims to promote digital sportsmanship, unity among youth, and responsible gaming within the barangay. Teams will compete in elimination rounds until the top team emerges as the champion. Prizes, trophies, and certificates will be awarded to the winners.\', \'To promote camaraderie and teamwork among the youth through friendly digital competition.\\r\\n\\r\\nTo provide a healthy and productive outlet for gaming enthusiasts within the barangay.\\r\\n\\r\\nTo foster responsible online gaming behavior and digital citizenship among young participants.\\r\\n\\r\\nTo encourage strategic thinking, communication, and leadership skills through eSports.\\r\\n\\r\\nTo support the SK’s mission of youth engagement and empowerment using relevant modern platforms.\\r\\n\\r\\nTo identify and recognize local talents in eSports who may pursue gaming-related opportunities.\\r\\n\\r\\n\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'| **Item**                     | **Description**                                           | **Estimated Cost (₱)** |\\r\\n| ---------------------------- | --------------------------------------------------------- | ---------------------- |\\r\\n| **Prizes**                   | Cash prize for Champion, 1st Runner-Up, and 2nd Runner-Up | 6,000.00               |\\r\\n| **Trophies & Medals**        | For top 3 teams                                           | 2,000.00               |\\r\\n| **Tarpaulin & Posters**      | Welcome tarp, bracket board, and promotional posters      | 1,000.00               |\\r\\n| **Certificates**             | For all participants, winners, and organizers             | 500.00                 |\\r\\n| **Internet Load/Connection** | For online/offline hosting (e.g., data or WiFi rental)    | 1,000.00               |\\r\\n| **Sound System Rental**      | Microphone and speakers for announcing matches            | 1,000.00               |\\r\\n| **Food & Snacks**            | For organizers, marshals, and participants                | 3,000.00               |\\r\\n| **Honorarium (Optional)**    | For shoutcasters/referees or tech support                 | 2,000.00               |\\r\\n| **Contingency**              | Emergency expenses (e.g., additional load, repairs)       | 1,500.00               |\\r\\n\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'Increased youth participation in barangay-led activities through digital and recreational engagement.\\r\\n\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:21:50\', \'2025-07-12 17:21:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'The Mobile Legends Tournament is a competitive eSports event that brings together local youth players to showcase their skills, teamwork, and strategic thinking in a popular 5v5 mobile multiplayer online battle arena (MOBA) game. The tournament aims to promote digital sportsmanship, unity among youth, and responsible gaming within the barangay. Teams will compete in elimination rounds until the top team emerges as the champion. Prizes, trophies, and certificates will be awarded to the winners.\', \'To promote camaraderie and teamwork among the youth through friendly digital competition.\\r\\n\\r\\nTo provide a healthy and productive outlet for gaming enthusiasts within the barangay.\\r\\n\\r\\nTo foster responsible online gaming behavior and digital citizenship among young participants.\\r\\n\\r\\nTo encourage strategic thinking, communication, and leadership skills through eSports.\\r\\n\\r\\nTo support the SK’s mission of youth engagement and empowerment using relevant modern platforms.\\r\\n\\r\\nTo identify and recognize local talents in eSports who may pursue gaming-related opportunities.\\r\\n\\r\\n\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'| **Item**                     | **Description**                                           | **Estimated Cost (₱)** |\\r\\n| ---------------------------- | --------------------------------------------------------- | ---------------------- |\\r\\n| **Prizes**                   | Cash prize for Champion, 1st Runner-Up, and 2nd Runner-Up | 6,000.00               |\\r\\n| **Trophies & Medals**        | For top 3 teams                                           | 2,000.00               |\\r\\n| **Tarpaulin & Posters**      | Welcome tarp, bracket board, and promotional posters      | 1,000.00               |\\r\\n| **Certificates**             | For all participants, winners, and organizers             | 500.00                 |\\r\\n| **Internet Load/Connection** | For online/offline hosting (e.g., data or WiFi rental)    | 1,000.00               |\\r\\n| **Sound System Rental**      | Microphone and speakers for announcing matches            | 1,000.00               |\\r\\n| **Food & Snacks**            | For organizers, marshals, and participants                | 3,000.00               |\\r\\n| **Honorarium (Optional)**    | For shoutcasters/referees or tech support                 | 2,000.00               |\\r\\n| **Contingency**              | Emergency expenses (e.g., additional load, repairs)       | 1,500.00               |\\r\\n\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'Increased youth participation in barangay-led activities through digital and recreational engagement.\\r\\n\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:21:50\', \'2025-07-12 17:21:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'The Mobile Legends Tournament is a competitive eSports event that brings together local youth players to showcase their skills, teamwork, and strategic thinking in a popular 5v5 mobile multiplayer online battle arena (MOBA) game. The tournament aims to promote digital sportsmanship, unity among youth, and responsible gaming within the barangay. Teams will compete in elimination rounds until the top team emerges as the champion. Prizes, trophies, and certificates will be awarded to the winners.\', \'To promote camaraderie and teamwork among the youth through friendly digital competition.\\r\\n\\r\\nTo provide a healthy and productive outlet for gaming enthusiasts within the barangay.\\r\\n\\r\\nTo foster responsible online gaming behavior and digital citizenship among young participants.\\r\\n\\r\\nTo encourage strategic thinking, communication, and leadership skills through eSports.\\r\\n\\r\\nTo support the SK’s mission of youth engagement and empowerment using relevant modern platforms.\\r\\n\\r\\nTo identify and recognize local talents in eSports who may pursue gaming-related opportunities.\\r\\n\\r\\n\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'| **Item**                     | **Description**                                           | **Estimated Cost (₱)** |\\r\\n| ---------------------------- | --------------------------------------------------------- | ---------------------- |\\r\\n| **Prizes**                   | Cash prize for Champion, 1st Runner-Up, and 2nd Runner-Up | 6,000.00               |\\r\\n| **Trophies & Medals**        | For top 3 teams                                           | 2,000.00               |\\r\\n| **Tarpaulin & Posters**      | Welcome tarp, bracket board, and promotional posters      | 1,000.00               |\\r\\n| **Certificates**             | For all participants, winners, and organizers             | 500.00                 |\\r\\n| **Internet Load/Connection** | For online/offline hosting (e.g., data or WiFi rental)    | 1,000.00               |\\r\\n| **Sound System Rental**      | Microphone and speakers for announcing matches            | 1,000.00               |\\r\\n| **Food & Snacks**            | For organizers, marshals, and participants                | 3,000.00               |\\r\\n| **Honorarium (Optional)**    | For shoutcasters/referees or tech support                 | 2,000.00               |\\r\\n| **Contingency**              | Emergency expenses (e.g., additional load, repairs)       | 1,500.00               |\\r\\n\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'Increased youth participation in barangay-led activities through digital and recreational engagement.\\r\\n\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:21:50\', \'2025-07-12 17:21:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (:title:, :category:, :description:, :objectives:, :beneficiaries:, :location:, :start_date:, :end_date:, :estimated_budget:, :budget_breakdown:, :source_of_funds:, :expected_outcomes:, :partners:, :attachments:, :created_by:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+DEBUG - 2025-07-12 17:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-12 17:23:54 --> mysqli_sql_exception: Table 'skgyes1.proposals' doesn't exist in C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\skgyes1\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\skgyes1\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\skgyes1\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\skgyes1\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skgyes1\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skgyes1\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\skgyes1\system\BaseModel.php(754): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\skgyes1\app\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(933): App\Controllers\Proposal->store()
+#10 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+#11 C:\xampp\htdocs\skgyes1\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\skgyes1\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\skgyes1\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\skgyes1\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\skgyes1\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-07-12 17:23:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'skgyes1.proposals' doesn't exist
+[Method: POST, Route: proposal/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (:title:, :category:, :description:, :objectives:, :beneficiaries:, :location:, :start_date:, :end_date:, :estimated_budget:, :budget_breakdown:, :source_of_funds:, :expected_outcomes:, :partners:, :attachments:, :created_by:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 17:23:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'skgyes1.proposals' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'awda\', \'awd\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'awd\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'awd\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:23:54\', \'2025-07-12 17:23:54\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'awda\', \'awd\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'awd\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'awd\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:23:54\', \'2025-07-12 17:23:54\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (:title:, :category:, :description:, :objectives:, :beneficiaries:, :location:, :start_date:, :end_date:, :estimated_budget:, :budget_breakdown:, :source_of_funds:, :expected_outcomes:, :partners:, :attachments:, :created_by:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+CRITICAL - 2025-07-12 17:23:54 --> [Caused by] mysqli_sql_exception: Table 'skgyes1.proposals' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'awda\', \'awd\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'awd\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'awd\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:23:54\', \'2025-07-12 17:23:54\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'awda\', \'awd\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'awd\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'awd\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:23:54\', \'2025-07-12 17:23:54\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (\'Mobile Legends Tournament\', \'Education\', \'awda\', \'awd\', \'Young people 15-20 years old\', \'Trento Barangay \', \'2025-07-16\', \'2025-07-17\', \'20000\', \'awd\', \'SK Annual Budget 2025 (Barangay Allocated Fund)\', \'awd\', \'Local Youth Organizations\', NULL, \'2\', \'2025-07-12 17:23:54\', \'2025-07-12 17:23:54\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proposals` (`title`, `category`, `description`, `objectives`, `beneficiaries`, `location`, `start_date`, `end_date`, `estimated_budget`, `budget_breakdown`, `source_of_funds`, `expected_outcomes`, `partners`, `attachments`, `created_by`, `created_at`, `updated_at`) VALUES (:title:, :category:, :description:, :objectives:, :beneficiaries:, :location:, :start_date:, :end_date:, :estimated_budget:, :budget_breakdown:, :source_of_funds:, :expected_outcomes:, :partners:, :attachments:, :created_by:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(754): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Proposal.php(37): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+DEBUG - 2025-07-12 17:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-12 17:26:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/sk_view_proposals.php"
+[Method: GET, Route: proposals/sk]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/sk_view_proposals.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/sk_view_proposals', [], true)
+ 3 APPPATH\Controllers\Proposal.php(48): view('dashboard/sk_view_proposals', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proposal->listSK()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proposal))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\skgyes1\\public\\index.php')
+DEBUG - 2025-07-12 17:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-12 17:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
